@@ -1,0 +1,5 @@
+ {{if users:}}
+   {{for user in users:}}
+	 <p>
+     Student name is {{=user1.db_studentname}}, Email is {{=user1.db_email}}, Course is {{=user1.db_course}}, Student id is {{=user1.db_studentid}}, Password is {{=user1.db_password}}
+     </p> 

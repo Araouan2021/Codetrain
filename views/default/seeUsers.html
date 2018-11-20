@@ -1,0 +1,11 @@
+{{if users:}}
+  {{for user in users:}}
+    <p>
+    Student name is {{=user.db_studentname}} , Email is 
+    {{=user.db_email}}, course is {{=user.db_course}} , Student id is {{=user.db_studentid}}, password is {{=user.db_password}}
+    </p>
+  {{pass}}
+{{else:}}
+  <h2>No Users Found</h2>
+{{pass}}
+
